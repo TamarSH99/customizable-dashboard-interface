@@ -1,0 +1,41 @@
+.dashboard-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  color: black;
+  padding-right: 1vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  box-shadow: 0 2vh 4vh 0 rgba(8, 6, 6, 0.2);
+  height: 60px;
+}
+
+.logo{
+ width:min-content;
+ height: min-content;
+}
+
+.dashboard-header .header-button {
+  margin: 0; 
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+  font-size: medium;
+  padding: 0.5rem;
+}
+
+.header-button:hover {
+  background-color:#E6E8F5;
+  color:  #0056b3; 
+  font-weight: bolder;
+  cursor: pointer;
+  border-radius: 0.2rem;
+
+}
+

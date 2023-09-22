@@ -1,0 +1,18 @@
+.dashboard-banner {
+    width: 100%;
+    background-color: #384AD3;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 60px;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.banner-title {
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: capitalize;
+}
